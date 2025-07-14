@@ -59,16 +59,56 @@ Tested the following models:
 
 | Model                     | Accuracy | ROC-AUC |
 |--------------------------|----------|---------|
-| Logistic Regression      | 83.7%    | 64.8%   |
-| Decision Tree            | 82.4%    | 62.1%   |
-| Random Forest (Tuned)    | 85.0%    | 70.1%   |
-| SVM (Tuned)              | 84.8%    | 66.7%   |
-| Final ML Pipeline (RF)   | **88.6%** | **74.3%** |
+| Logistic Regression      | 83.7%    | 71 %   |
+| Decision Tree            | 82.4%    | 57 %   |
+| Random Forest (Tuned)    | 85.0%    | 95.3.1%   |
+| SVM (Tuned)              | 84.8%    | 70.7%   |
+| Final ML Pipeline (RF)   | **88.6%** | **73.4%** |
 
 ✅ Final pipeline performs best on test data and is saved for deployment.
 
 ---
 
-## 📂 Folder Structure
+---
+
+## 💡 Business Insights
+
+- Target campaigns toward customers with specific profiles (`job`, `education`, `month`, `contact` type).
+- Customers contacted in months like **May** and **August** were less likely to subscribe.
+- **Balance**, **campaign contact count**, and **previous outcomes** were strong predictors.
+
+---
+
+## 🔮 Future Enhancements
+
+- Deploy model using Flask/FastAPI.
+- Integrate with CRM tools to score new customers.
+- Explore ensemble techniques like XGBoost or LightGBM.
+- Add cost-sensitive metrics and business KPIs to improve targeting ROI.
+
+---
+
+## 📚 References
+
+- [UCI Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+- Scikit-learn Documentation: https://scikit-learn.org/
+- ADASYN: He et al., 2008 – *Adaptive synthetic sampling approach for imbalanced learning*
+
+---
+
+## 👨‍💻 Author
+
+**Abhinav Pv**  
+Electronics & Communication Engineer | Data Science Enthusiast  
+🚀 Specializing in ML, EDA, Python, and Power BI
+
+---
+
+## 🏷️ Tags
+
+`machine-learning` `classification` `banking` `sklearn` `imbalanced-learn` `data-science` `random-forest` `pipeline` `EDA`
+
+
+
 
 
