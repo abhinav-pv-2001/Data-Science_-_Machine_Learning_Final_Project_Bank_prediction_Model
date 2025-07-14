@@ -59,9 +59,9 @@ Tested the following models:
 
 | Model                     | Accuracy | ROC-AUC |
 |--------------------------|----------|---------|
-| Logistic Regression      | 83.7%    | 71 %   |
-| Decision Tree            | 82.4%    | 57 %   |
-| Random Forest (Tuned)    | 85.0%    | 95.3.1%   |
+| Logistic Regression      | 74 %    | 71 %   |
+| Decision Tree            | 80 %    | 57 %   |
+| Random Forest (Tuned)    | 85.0%    | 95.3 %   |
 | SVM (Tuned)              | 84.8%    | 70.7%   |
 | Final ML Pipeline (RF)   | **88.6%** | **73.4%** |
 
