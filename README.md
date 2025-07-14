@@ -67,6 +67,8 @@ Tested the following models:
 
 ✅ Final pipeline performs best on test data and is saved for deployment.
 
+## 📂 Folder Structure
+
 ---
 ├── Cleaned data/
 │ └── df_new_cleaned.csv
@@ -74,7 +76,7 @@ Tested the following models:
 │ └── DSML_Project.ipynb
 ├── RF Best model and Pipeline model/
 │ └── best_rf_model.pkl
-│ └── final_pipeline_model.pkl
+│  └── final_pipeline_model.pkl
 ├──Source_File
 │ └──bank-full.csv
 ├── README.md
